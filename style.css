@@ -52,6 +52,8 @@ img {
     padding: 4em 8em;
     display: flex;
     gap: 2em;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-content h1 {
