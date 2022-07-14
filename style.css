@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
     min-width: 100vh;
 }
 
@@ -70,4 +69,55 @@ button {
     padding: .4em 1.5em;
     text-align: center;
     border-radius: .8em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img {
+    max-width: 100%;
+    
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 1em 0;
+
+}
+
+.images {
+    margin-top: 1em;
+    display: flex;
+    gap: 3.5em;
+}
+
+.quote {
+    border: 1px solid red;
+}
+
+
+.img {
+    width: 200px;
+    text-align: center;
+}
+
+
+.img img {
+    min-width: 200px;
+    object-fit: cover;
+    height: 200px;
+    border: 3.5px solid #3882f6;
+    border-radius: 10px;
+    
+}
+
+.img p {
+    margin: .3em 0;
 }
