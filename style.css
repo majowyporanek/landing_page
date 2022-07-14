@@ -93,15 +93,10 @@ h2 {
 }
 
 .images {
-    margin-top: 1em;
+    margin: 1em 0;
     display: flex;
     gap: 3.5em;
 }
-
-.quote {
-    border: 1px solid red;
-}
-
 
 .img {
     width: 200px;
@@ -120,4 +115,32 @@ h2 {
 
 .img p {
     margin: .3em 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin: 4em 0;
+    width: 100%;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote_text {
+    padding: 0 2em;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 4em;
 }
